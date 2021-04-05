@@ -1,3 +1,5 @@
+# This script has a function that will add the numbers in an arry if the elements are postive. 
+
 function Get-SumOfPositive($NumberArray)
 {
     $sum = 0
