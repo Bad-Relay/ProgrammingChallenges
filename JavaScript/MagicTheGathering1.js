@@ -13,6 +13,7 @@ p2_atk = player2.map(x =>x[0]); // Set the attack of player 2
 
 
 const end_player1 = player1.filter((p1,p2) => !(p1[1] <= p2_atk[p2])); // It fillter the mosters that survive player 2 attack s
+                                                                        // p1 is the current element of player 1 list and p2 is the index of the player 2 list
 const end_player2 = player2.filter((p1,p2) => !(p1[1] <= p1_atk[p2])); // It fillter the mosters that survive player 1 attacks 
   
 var result = {'player1':end_player1, 'player2':end_player2}; // make the result of a object with player 1 and player 2 remaining monsters
